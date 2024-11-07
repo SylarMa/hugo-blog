@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:site_name" content="Pig Logic Park Studio">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content="http://localhost:1313//img/home-bg-jeep.jpg">
+    <meta property="twitter:image" content="http://localhost:1313//img/home-bg-jeep.jpg" />
+    
+
+    
+    <meta name="title" content="Hugo对Markdown支持情况测试" />
+    <meta property="og:title" content="Hugo对Markdown支持情况测试" />
+    <meta property="twitter:title" content="Hugo对Markdown支持情况测试" />
+    
+
+    
+    <meta name="description" content="马龙华，开源爱好者，生活探险家 | 与你一起发现更大的世界。">
+    <meta property="og:description" content="马龙华，开源爱好者，生活探险家 | 与你一起发现更大的世界。" />
+    <meta property="twitter:description" content="马龙华，开源爱好者，生活探险家 | 与你一起发现更大的世界。" />
+    
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="马龙华,猪逻辑公园,Pig Logic Park Studio">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>Hugo对Markdown支持情况测试 | 马龙华的博客 | Pig Logic Park Studio</title>
+
+    <link rel="canonical" href="/post/hugo-markdown/">
+
+    
+    
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.min.css">
+
+    
+    <link rel="stylesheet" href="/css/zanshang.css">
+
+    
+    <link rel="stylesheet" href="/css/font-awesome.all.min.css">
+
+    
+    
+
+    
+    <script src="/js/jquery.min.js"></script>
+
+    
+    <script src="/js/bootstrap.min.js"></script>
+
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    <script src="/js/lazysizes.min.js"></script>
+
+    
+    
+
+</head>
+
+
+
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Pig Logic Park Studio</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">All Posts</a>
+                    </li>
+                    
+                        
+                        <li>
+                            <a href="/categories/hugo/">hugo</a>
+                        </li>
+                        
+                    
+                    
+		    
+                        <li><a href="/archive//">ARCHIVE</a></li>
+                    
+                        <li><a href="/notes//">NOTES</a></li>
+                    
+                        <li><a href="/about//">ABOUT</a></li>
+                    
+		            <li>
+                        <a href="/search"><i class="fa fa-search"></i></a>
+		           </li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('/img/home-bg-jeep.jpg')
+    }
+</style>
+
+<header class="intro-header" >
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/hugo" title="Hugo">
+                            Hugo
+                        </a>
+                        
+                        <a class="tag" href="/tags/tag2" title="tag2">
+                            tag2
+                        </a>
+                        
+                    </div>
+                    <h1>Hugo对Markdown支持情况测试</h1>
+                    <h2 class="subheading"></h2>
+                    <span class="meta">
+                        
+                            Posted by 
+                            
+                                     &#34;&#34;
+                             
+                            on 
+                            Monday, June 4, 2018
+                            
+                            
+                            
+                            
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<article>
+    <div class="container">
+        <div class="row">
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                
+                <p>本文主要内容是测试Hugo对Markdown的支持情况，方便后续写作时查阅。</p>
+<p>标题<br>
+在行首以井号#加空格指定，几个井号就代表几级标题。</p>
+<p>1<br>
+2<br>
+3<br>
+4</p>
+<h1 id="1级标题">1级标题</h1>
+<h2 id="2级标题">2级标题</h2>
+<p>&hellip;</p>
+<h6 id="6级标题">6级标题</h6>
+<p>段落<br>
+段落之间以至少一行空行为分隔，也可以通过在行尾加 2个空格 强制段落内换行。</p>
+<p>段落一的第一行<br>
+段落一的第二行<br>
+…<br>
+段落一的第N行</p>
+<p>段落二的第一行</p>
+<p>文本样式<br>
+字体样式常用的有粗体、斜体、删除线等。<br>
+<em>斜体字</em> 对应 斜体字<br>
+<strong>粗体字</strong> 对应 粗体字<br>
+<del>删除线</del> 对应 删除线<br>
+<code>行内代码</code> 对应 行内代码</p>
+<p>还有一些样式原生不支持，但是可以通过html间接支持。<br>
+<!-- raw HTML omitted -->下划线<!-- raw HTML omitted --> 对应 下划线<br>
+H<!-- raw HTML omitted -->2<!-- raw HTML omitted -->O 对应 H2O<br>
+爆米<!-- raw HTML omitted -->TM<!-- raw HTML omitted --> 对应 爆米TM<br>
+<!-- raw HTML omitted -->前景色<!-- raw HTML omitted -->对应 前景色<br>
+<!-- raw HTML omitted -->背景色<!-- raw HTML omitted -->对应 背景色</p>
+<p>列表<br>
+列表分为有序列表和无序列表。<br>
+以数字+ . 表示有序列表项：</p>
+<p>有序子项目1<br>
+以 - 或 + 表示无序列表项：</p>
+<p>无序子项目<br>
+可以混合使用，注意同级列表以空格对齐。</p>
+<p>有序子项目一<br>
+无序子项目 1<br>
+无序子项目 2<br>
+有序子项目二<br>
+无序子项目 a<br>
+无序子项目 b<br>
+图片<br>
+一般格式是 
+  <img src="%e9%93%be%e6%8e%a5" alt="文字描述">
+
+ ：<br>
+org-mode-logo</p>
+<p>这种格式显示图片不能控制对齐和大小，需要的话可以采取raw html的方法：</p>
+<p>1<br>
+2<br>
+3</p>
+<!-- raw HTML omitted -->
+<p>tip</p>
+<p>需要注意的是，Hugo 0.60以上版本需要设置markup.goldmark.renderer的unsafe值为true才支持</p>
+<p>链接可以是网络URL，也可以是相对路径。<br>
+相对路径的话需要注意本地路径和(网站)部署路径可能不一致的问题。<br>
+一般还是通过工具 (如 PicGo) 上传到图床更方便。</p>
+<p>链接<br>
+链接分为外部链接和内部链接，格式都是 <a href="%E9%93%BE%E6%8E%A5">文字描述</a> 。<br>
+外部链接就是我们常用的URL，这里不赘述。<br>
+内部链接，也叫anchor，用来引用当前文档的某个位置。<br>
+可以通过以下方式标记位置：</p>
+<p>1<br>
+{#target}<br>
+其中 target 需要取一个有意义的、文档内唯一的名字。<br>
+然后通过以下方式引用，与html的锚类似：</p>
+<p>1<br>
+<a href="#target">文字描述</a><br>
+跳转回本章节起始位置☞ back 。</p>
+<p>引用与代码<br>
+引用名人名言：</p>
+<p>1</p>
+<blockquote>
+<p>Stay Hungry. Stay Foolish &ndash; Steve Jobs<br>
+Stay Hungry. Stay Foolish – Steve Jobs</p>
+</blockquote>
+<p>引用代码：</p>
+<p>1<br>
+2<br>
+3</p>
+<pre tabindex="0"><code class="language-语言(可以不填，但是没有语法高亮)" data-lang="语言(可以不填，但是没有语法高亮)">代码内容
+</code></pre><p>C代码：</p>
+<p>1<br>
+2<br>
+3<br>
+4<br>
+5<br>
+6</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#8be9fd">int</span> <span style="color:#50fa7b">sayHello</span>()
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#50fa7b">printf</span>(<span style="color:#f1fa8c">&#34;Hello!</span><span style="color:#f1fa8c">\n</span><span style="color:#f1fa8c">&#34;</span>); <span style="color:#6272a4">// hello everyone
+</span></span></span><span style="display:flex;"><span><span style="color:#6272a4"></span>}
+</span></span></code></pre></div><p>1<br>
+2<br>
+3<br>
+4<br>
+int sayHello()<br>
+{<br>
+printf(&ldquo;Hello!\n&rdquo;); // hello everyone<br>
+}<br>
+表格<br>
+创建表格十分简便，基本上组合使用 | - 即可。<br>
+对齐不是硬性要求，第一列 | 也可以省略。</p>
+<p>1<br>
+2<br>
+3<br>
+4<br>
+5<br>
+6<br>
+7<br>
+8<br>
+9<br>
+简写版本：</p>
+<table>
+  <thead>
+      <tr>
+          <th>key</th>
+          <th>value</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>long key</td>
+          <td>long测试中文</td>
+      </tr>
+  </tbody>
+</table>
+<p>美观版本：</p>
+<table>
+  <thead>
+      <tr>
+          <th>key</th>
+          <th>value</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>long key</td>
+          <td>long测试中文</td>
+      </tr>
+      <tr>
+          <td>key	value</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>long key	long测试中文</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>另外在 spacemacs 中使用 Tab 和 Shift Tab 可以自动对齐表格和在单元格内跳转，谁用谁知道！ 😄</td>
+          <td></td>
+      </tr>
+  </tbody>
+</table>
+<p>分隔线<br>
+3个以上横杠 - 单独为一行可以显示分隔线：</p>
+<p>emoji表情<br>
+支持Github的emoji表情，格式为 :emoji代码: ，具体可以查阅 👉 这里 。</p>
+<p>公式<br>
+比较考验排版能力的数学公式，通过LaTex表示毫无压力、逼格满满。<br>
+正文显示公式： $LaTex公式$</p>
+<p>单独显示公式： $$LaTex公式$$</p>
+<p>另外根据mathjax的说明，公式中的换行\需要写成\\：</p>
+<p>1<br>
+2<br>
+3<br>
+4<br>
+5<br>
+6<br>
+7<br>
+8<br>
+\begin{equation}<br>
+\begin{split}<br>
+(a + b)^3<br>
+&amp;= (a + b)(a + b)^2            \\<br>
+&amp;= (a + b)(a^2 + 2ab + b^2)    \\<br>
+&amp;= a^3 + 3a^2b + 3ab^2 + b^3<br>
+\end{split}<br>
+\end{equation}</p>
+<p>tip</p>
+<p>支持显示公式需要设置mathjax选项为true，支持单个$还需要设置mathjaxEnableSingleDollar为true。</p>
+<p>脚注Footnote<br>
+脚注主要有数字脚注1和命名脚注2。<br>
+在文章末尾行首以下面的方式可以定义脚注：</p>
+<p>任务列表<br>
+任务列表是在无序列表的基础上扩展的，属于GFM标准。</p>
+<p>1<br>
+2</p>
+<ul>
+<li><input disabled="" type="checkbox"> 待测试</li>
+<li><input checked="" disabled="" type="checkbox"> 已测试<br>
+待测试<br>
+已测试</li>
+</ul>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>数字脚注内容&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>命名脚注内容<br>
+在文中通过 <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> 或者 <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> 引用即可。<br>
+不过命名脚注显示在页面上还是数字脚注的形式。。。&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+
+                
+
+                
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/post/my-first-post/" data-toggle="tooltip" data-placement="top" title="Hello World">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/post/hello-hugo/" data-toggle="tooltip" data-placement="top" title="Hello Hugo">Next
+                            Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+                
+
+                
+
+
+
+
+<link href="https://xxx.xxx.com/dist/Artalk.css" rel="stylesheet" />
+<script src="https://xxx.xxx.com/dist/Artalk.js"></script>
+
+
+<div id="Comments"></div>
+
+<script>
+    Artalk.init({
+        el: '#Comments',
+        pageKey: 'http:\/\/localhost:1313\/post\/hugo-markdown\/',
+        pageTitle: 'Hugo对Markdown支持情况测试',
+        server: 'https:\/\/xxx.xxx.com',
+        site: 'xxx blog',
+    })
+</script>
+
+
+            </div>
+
+            
+            
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+            
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/hugo" title="hugo">
+                            hugo
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                </section>
+                
+
+                
+                
+                <section>
+                    <hr>
+                    <h5>FRIENDS</h5>
+                    <ul class="list-inline">
+                        
+                        <li><a target="_blank" href="https://zhaozhihan.com">Linda的博客</a></li>
+                        
+                    </ul>
+                </section>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    <li>
+                        <a href="mailto:youremail@gmail.com">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		           
+                    
+                    
+                    
+                    
+
+		            
+                    
+                    <li>
+                        <a target="_blank" href="/your%20wechat%20qr%20code%20image">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-weixin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		            
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/yourgithub">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		            
+                    
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/yourlinkedinid">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		           
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://stackoverflow.com/users/yourstackoverflowid">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-stack-overflow fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+            
+            
+            
+           
+                   <li>
+                       <a href='' rel="alternate" type="application/rss+xml" title="Pig Logic Park Studio" >
+                           <span class="fa-stack fa-lg">
+                               <i class="fas fa-circle fa-stack-2x"></i>
+                               <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+                           </span>
+                       </a>
+                   </li>
+            
+             </ul>
+		<p class="copyright text-muted">
+                    Copyright &copy; Pig Logic Park Studio 2024
+                    
+                    <br>
+                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=zhaohuabing&repo=hugo-theme-cleanwhite&type=star&count=true" >
+                    </iframe>
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        loadAsync("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    loadAsync("https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+
+        
+        
+        
+        
+            _containerSelector = 'div.post-container'
+        
+
+        
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        
+        $(selector).html('')
+
+        
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    
+
+
+    loadAsync("\/js\/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+
+
+
+
+</body>
+</html>

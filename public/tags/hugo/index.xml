@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Pig Logic Park Studio</title>
+    <link>http://localhost:1313/tags/hugo/</link>
+    <description>Recent content in Hugo on Pig Logic Park Studio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello Hugo</title>
+      <link>http://localhost:1313/post/hello-hugo/</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/hello-hugo/</guid>
+      <description>&lt;h1 id=&#34;快速入门&#34;&gt;快速入门&lt;/h1&gt;&#xA;&lt;p&gt;在几分钟内学会创建Hugo网站。&lt;br&gt;&#xA;在本教程中，您将：&lt;/p&gt;&#xA;&lt;p&gt;1、创建网站&lt;br&gt;&#xA;2、添加内容&lt;br&gt;&#xA;3、配置网站&lt;br&gt;&#xA;4、发布网站&lt;/p&gt;&#xA;&lt;h2 id=&#34;前提条件&#34;&gt;前提条件&lt;/h2&gt;&#xA;&lt;p&gt;开始本教程之前，您必须：&lt;/p&gt;&#xA;&lt;p&gt;1、安装 Hugo（扩展版，版本 v0.112.0 或更高）(&lt;a href=&#34;https://github.com/gohugoio/hugo/releases/latest&#34;&gt;https://github.com/gohugoio/hugo/releases/latest&lt;/a&gt;)&lt;br&gt;&#xA;2、安装 Git(&lt;a href=&#34;https://git-scm.com/downloads&#34;&gt;https://git-scm.com/downloads&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hugo对Markdown支持情况测试</title>
+      <link>http://localhost:1313/post/hugo-markdown/</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/hugo-markdown/</guid>
+      <description>&lt;p&gt;本文主要内容是测试Hugo对Markdown的支持情况，方便后续写作时查阅。&lt;/p&gt;&#xA;&lt;p&gt;标题&lt;br&gt;&#xA;在行首以井号#加空格指定，几个井号就代表几级标题。&lt;/p&gt;&#xA;&lt;p&gt;1&lt;br&gt;&#xA;2&lt;br&gt;&#xA;3&lt;br&gt;&#xA;4&lt;/p&gt;&#xA;&lt;h1 id=&#34;1级标题&#34;&gt;1级标题&lt;/h1&gt;&#xA;&lt;h2 id=&#34;2级标题&#34;&gt;2级标题&lt;/h2&gt;&#xA;&lt;p&gt;&amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

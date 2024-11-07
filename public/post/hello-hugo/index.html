@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:site_name" content="Pig Logic Park Studio">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content="http://localhost:1313//img/home-bg-jeep.jpg">
+    <meta property="twitter:image" content="http://localhost:1313//img/home-bg-jeep.jpg" />
+    
+
+    
+    <meta name="title" content="Hello Hugo" />
+    <meta property="og:title" content="Hello Hugo" />
+    <meta property="twitter:title" content="Hello Hugo" />
+    
+
+    
+    <meta name="description" content="马龙华，开源爱好者，生活探险家 | 与你一起发现更大的世界。">
+    <meta property="og:description" content="马龙华，开源爱好者，生活探险家 | 与你一起发现更大的世界。" />
+    <meta property="twitter:description" content="马龙华，开源爱好者，生活探险家 | 与你一起发现更大的世界。" />
+    
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="马龙华,猪逻辑公园,Pig Logic Park Studio">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>Hello Hugo | 马龙华的博客 | Pig Logic Park Studio</title>
+
+    <link rel="canonical" href="/post/hello-hugo/">
+
+    
+    
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.min.css">
+
+    
+    <link rel="stylesheet" href="/css/zanshang.css">
+
+    
+    <link rel="stylesheet" href="/css/font-awesome.all.min.css">
+
+    
+    
+
+    
+    <script src="/js/jquery.min.js"></script>
+
+    
+    <script src="/js/bootstrap.min.js"></script>
+
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    <script src="/js/lazysizes.min.js"></script>
+
+    
+    
+
+</head>
+
+
+
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Pig Logic Park Studio</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">All Posts</a>
+                    </li>
+                    
+                        
+                        <li>
+                            <a href="/categories/hugo/">hugo</a>
+                        </li>
+                        
+                    
+                    
+		    
+                        <li><a href="/archive//">ARCHIVE</a></li>
+                    
+                        <li><a href="/notes//">NOTES</a></li>
+                    
+                        <li><a href="/about//">ABOUT</a></li>
+                    
+		            <li>
+                        <a href="/search"><i class="fa fa-search"></i></a>
+		           </li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('/img/home-bg-jeep.jpg')
+    }
+</style>
+
+<header class="intro-header" >
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/hugo" title="Hugo">
+                            Hugo
+                        </a>
+                        
+                        <a class="tag" href="/tags/%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8" title="快速入门">
+                            快速入门
+                        </a>
+                        
+                    </div>
+                    <h1>Hello Hugo</h1>
+                    <h2 class="subheading"></h2>
+                    <span class="meta">
+                        
+                            Posted by 
+                            
+                                     &#34;&#34;
+                             
+                            on 
+                            Monday, June 4, 2018
+                            
+                            
+                            
+                            
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<article>
+    <div class="container">
+        <div class="row">
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                
+                <h1 id="快速入门">快速入门</h1>
+<p>在几分钟内学会创建Hugo网站。<br>
+在本教程中，您将：</p>
+<p>1、创建网站<br>
+2、添加内容<br>
+3、配置网站<br>
+4、发布网站</p>
+<h2 id="前提条件">前提条件</h2>
+<p>开始本教程之前，您必须：</p>
+<p>1、安装 Hugo（扩展版，版本 v0.112.0 或更高）(<a href="https://github.com/gohugoio/hugo/releases/latest">https://github.com/gohugoio/hugo/releases/latest</a>)<br>
+2、安装 Git(<a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a>)</p>
+<p>您还必须熟悉使用命令行界面。</p>
+<h2 id="创建网站">创建网站</h2>
+<h3 id="命令">命令</h3>
+<p><em>如果您是Windows用户：</em><br>
+<strong>不要使用命令提示符</strong><br>
+<strong>不要使用 Windows PowerShell</strong><br>
+<strong>请在 PowerShell 或 Linux 终端（如WSL或Git Bash）中运行这些命令</strong><br>
+<strong>PowerShell 和 Windows PowerShell 是不同的应用程序。</strong></p>
+<p>运行以下命令，使用 Ananke 主题创建 Hugo 网站。下一部分将解释每个命令的用途。</p>
+<pre tabindex="0"><code>hugo new site quickstart
+cd quickstart
+git init
+git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+echo &#34;theme = &#39;ananke&#39;&#34; &gt;&gt; hugo.toml
+hugo server
+</code></pre><p>在终端中显示的 URL 中查看您的网站。按下 Ctrl + C 停止 Hugo 的开发服务器。</p>
+<h3 id="命令解释">命令解释</h3>
+<p>在 quickstart 目录中为您的项目创建 目录结构。<br>
+<code>hugo new site quickstart</code></p>
+<p>将当前目录更改为项目的根目录。<br>
+<code>cd quickstart</code></p>
+<p>在当前目录中初始化一个空的 Git 仓库。<br>
+<code>git init</code></p>
+<p>将 Ananke 主题克隆到 themes 目录中，并将其作为 Git 子模块 添加到您的项目中。<br>
+<code>git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke</code></p>
+<p>向站点配置文件中追加一行，指示当前使用的主题。<br>
+<code>echo &quot;theme = 'ananke'&quot; &gt;&gt; hugo.toml</code></p>
+<p>启动 Hugo 的开发服务器以查看网站。<br>
+<code>hugo server</code></p>
+<p>按下 Ctrl + C 停止 Hugo 的开发服务器。</p>
+<h2 id="添加内容">添加内容</h2>
+<p>向您的网站添加一个新页面。<br>
+<code>hugo new content/posts/my-first-post.md</code></p>
+<p>Hugo 会在 content/posts 目录中创建该文件。使用编辑器打开该文件。</p>
+<pre tabindex="0"><code>---
+title: &#34;我的第一篇文章&#34;
+date: 2022-11-20T09:03:20-08:00
+draft: true
+---
+</code></pre><p>注意 [front matter] 中的 draft 值为 true。默认情况下，Hugo 在构建网站时不会发布草稿内容。</p>
+<p>在文章正文中添加一些 [markdown]，但不要更改 draft 值。</p>
+<pre tabindex="0"><code>---
+title: &#34;我的第一篇文章&#34;
+date: 2022-11-20T09:03:20-08:00
+draft: true
+---
+
+简介
+
+这是 **粗体** 文本，这是 *斜体* 文本。
+
+访问 [Hugo](https://gohugo.io) 网站！
+</code></pre><p>保存文件，然后启动 Hugo 的开发服务器以查看网站。您可以运行以下命令之一来包含草稿内容。</p>
+<pre tabindex="0"><code>hugo server --buildDrafts
+hugo server -D
+</code></pre><p>在终端中显示的 URL 中查看您的网站。随着继续添加和更改内容，请保持开发服务器运行。</p>
+<p>Hugo 的渲染引擎符合 CommonMark 的 规范。CommonMark 组织提供了一个由参考实现驱动的有用的 实时测试工具。</p>
+<h2 id="配置网站">配置网站</h2>
+<p>使用编辑器打开项目根目录下的 网站配置 文件（hugo.toml）。</p>
+<pre tabindex="0"><code>baseURL = &#39;https://example.org/&#39;
+languageCode = &#39;en-us&#39;
+title = &#39;我的新 Hugo 网站&#39;
+theme = &#39;ananke&#39;
+</code></pre><p>进行以下更改：</p>
+<p>为您的生产网站设置 baseURL。该值必须以协议开头，并以斜杠结尾，如上所示。</p>
+<p>将 languageCode 设置为您的语言和地区。</p>
+<p>为您的生产网站设置 title。</p>
+<p>启动 Hugo 的开发服务器以查看您的更改，记得包含草稿内容。</p>
+<p><code>hugo server -D</code><br>
+大多数主题作者提供配置指南和选项。请务必访问您的主题的存储库或文档站点了解详细信息。</p>
+<p>Ananke 主题的作者 The New Dynamic 提供了关于配置和使用的 文档。他们还提供了一个演示站点。</p>
+<h2 id="发布网站">发布网站</h2>
+<p>在此步骤中，您将“发布”网站，但不会 “部署”它。</p>
+<p>当您“发布”网站时，Hugo 会在项目根目录的 public 目录中创建整个静态网站。其中包括 HTML 文件和像图像、CSS 文件和 JavaScript 文件这样的资源。</p>
+<p>当您发布网站时，通常不希望包含[草稿、将来或过期内容]。命令很简单。</p>
+<p><code>hugo</code></p>
+<p>要了解如何“部署”您的网站，请参阅托管和部署部分。</p>
+
+
+                
+
+                
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/post/hugo-markdown/" data-toggle="tooltip" data-placement="top" title="Hugo对Markdown支持情况测试">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
+                </ul>
+                
+
+                
+
+
+
+
+<link href="https://xxx.xxx.com/dist/Artalk.css" rel="stylesheet" />
+<script src="https://xxx.xxx.com/dist/Artalk.js"></script>
+
+
+<div id="Comments"></div>
+
+<script>
+    Artalk.init({
+        el: '#Comments',
+        pageKey: 'http:\/\/localhost:1313\/post\/hello-hugo\/',
+        pageTitle: 'Hello Hugo',
+        server: 'https:\/\/xxx.xxx.com',
+        site: 'xxx blog',
+    })
+</script>
+
+
+            </div>
+
+            
+            
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+            
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/hugo" title="hugo">
+                            hugo
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                </section>
+                
+
+                
+                
+                <section>
+                    <hr>
+                    <h5>FRIENDS</h5>
+                    <ul class="list-inline">
+                        
+                        <li><a target="_blank" href="https://zhaozhihan.com">Linda的博客</a></li>
+                        
+                    </ul>
+                </section>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    <li>
+                        <a href="mailto:youremail@gmail.com">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		           
+                    
+                    
+                    
+                    
+
+		            
+                    
+                    <li>
+                        <a target="_blank" href="/your%20wechat%20qr%20code%20image">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-weixin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		            
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/yourgithub">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		            
+                    
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/yourlinkedinid">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		           
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://stackoverflow.com/users/yourstackoverflowid">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-stack-overflow fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+            
+            
+            
+           
+                   <li>
+                       <a href='' rel="alternate" type="application/rss+xml" title="Pig Logic Park Studio" >
+                           <span class="fa-stack fa-lg">
+                               <i class="fas fa-circle fa-stack-2x"></i>
+                               <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+                           </span>
+                       </a>
+                   </li>
+            
+             </ul>
+		<p class="copyright text-muted">
+                    Copyright &copy; Pig Logic Park Studio 2024
+                    
+                    <br>
+                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=zhaohuabing&repo=hugo-theme-cleanwhite&type=star&count=true" >
+                    </iframe>
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        loadAsync("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    loadAsync("https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+
+        
+        
+        
+        
+            _containerSelector = 'div.post-container'
+        
+
+        
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        
+        $(selector).html('')
+
+        
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    
+
+
+    loadAsync("\/js\/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+
+
+
+
+</body>
+</html>
