@@ -3,7 +3,7 @@ title:       "Hugo Error"
 subtitle:    ""
 description: ""
 date:        2024-11-07
-author:      ""
+author:      "Pig Logic Park Studio"
 image:       ""
 tags:        ["Hugo", "Error"]
 categories:  ["Hugo" ]

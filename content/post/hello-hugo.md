@@ -3,7 +3,7 @@ title:       "手把手教你零基础零费用教你使用Hugo+GitHub打造专�
 subtitle:    ""
 description: ""
 date:        2024-11-08
-author:      ""
+author:      "Pig Logic Park Studio"
 image:       ""
 tags:        ["Hugo", "快速入门"]
 categories:  ["Hugo" ]
@@ -259,11 +259,15 @@ Branch:main->/(root)
 
 复制粘贴，打开config.toml，然后替换到原先的，当然，这里可以改成你自己的域名，更方便记忆。
 
+在github的仓库中找到Settings->Pages，找到Custom domain，添加域名并保存。
+
+域名解析到github即可。
+
 再走一遍
 ```
 git status 
 git add . 
-git commit -m "add yml file" 
+git commit -m "add new file" 
 git push 
 ```
 

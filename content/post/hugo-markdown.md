@@ -3,7 +3,7 @@ title:       "Hugo对Markdown支持情况测试"
 subtitle:    ""
 description: ""
 date:        2018-06-04
-author:      ""
+author:      "Pig Logic Park Studio"
 image:       ""
 tags:        ["Hugo", "tag2"]
 categories:  ["Hugo" ]
