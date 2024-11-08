@@ -61,6 +61,20 @@ home = ["HTML", "RSS", "Algolia"]
   artalk_server = "https://xxx.xxx.com"
   artalk_site = "xxx blog"
 
+  [params.giscus]
+  data_repo="SylarMa/hugo-blog"
+  data_repo_id="R_kgDONMJe4Q"
+  data_category="Announcements"
+  data_category_id="DIC_kwDONMJe4c4CkFc3"
+  data_mapping="pathname"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="bottom"
+  data-theme="preferred_color_scheme"
+  data-lang="zh-CN"
+  crossorigin="anonymous"
+
   #Enable wechat pay & alipay to allow readers send reward money if they like the articles 
   reward = false 
   # reward_guide = "如果这篇文章对你有用,请随意打赏" 
