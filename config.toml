@@ -69,6 +69,20 @@ home = ["HTML", "RSS", "Algolia"]
   bookmarks = false
   about_me = true
 
+  [params.giscus]
+  data_repo="SylarMa/hugo-blog"
+  data_repo_id="R_kgDONMJe4Q"
+  data_category="Announcements"
+  data_category_id="DIC_kwDONMJe4c4CkFc3"
+  data_mapping="pathname"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="bottom"
+  data-theme="preferred_color_scheme"
+  data-lang="zh-CN"
+  crossorigin="anonymous"
+
   # Include any custom CSS and/or JS files, url or relative to /static folder
   #custom_css = ["css/lightbox.css", "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css", "css/main.css"]
   #custom_js = ["js/lightbox.js", "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js", "js/main.js"]
@@ -141,17 +155,3 @@ params = ["categories", "tags"]
     hardWraps = true
     unsafe = false
     xhtml = false
-
-[params.giscus]
-  data_repo="SylarMa/hugo-blog"
-  data_repo_id="R_kgDONMJe4Q"
-  data_category="Announcements"
-  data_category_id="DIC_kwDONMJe4c4CkFc3"
-  data_mapping="pathname"
-  data-strict="0"
-  data-reactions-enabled="1"
-  data-emit-metadata="0"
-  data-input-position="bottom"
-  data-theme="preferred_color_scheme"
-  data-lang="zh-CN"
-  crossorigin="anonymous"
