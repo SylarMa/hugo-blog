@@ -36,9 +36,9 @@ home = ["HTML", "RSS", "Algolia"]
   algolia_apiKey = ""
 
   # Sidebar settings
-  sidebar_about_description = "Software Developer, Open Source Enthusiast and Life Adventurer"
+  sidebar_about_description = "Pig Logic Park Studio"
   #sidebar_avatar = "img/avatar-zhaohuabing.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
-  sidebar_avatar = "img/zhaohuabing.png"      # use absolute URL, seeing it's used in both `/` and `/about/`
+  sidebar_avatar = "img/xiaochou.png"      # use absolute URL, seeing it's used in both `/` and `/about/`
 
   featured_tags = true 
   featured_condition_size = 1 
@@ -60,20 +60,6 @@ home = ["HTML", "RSS", "Algolia"]
   artalk_enable = false
   artalk_server = "https://xxx.xxx.com"
   artalk_site = "xxx blog"
-
-  [params.giscus]
-  data_repo="SylarMa/hugo-blog"
-  data_repo_id="R_kgDONMJe4Q"
-  data_category="Announcements"
-  data_category_id="DIC_kwDONMJe4c4CkFc3"
-  data_mapping="pathname"
-  data-strict="0"
-  data-reactions-enabled="1"
-  data-emit-metadata="0"
-  data-input-position="bottom"
-  data-theme="preferred_color_scheme"
-  data-lang="zh-CN"
-  crossorigin="anonymous"
 
   #Enable wechat pay & alipay to allow readers send reward money if they like the articles 
   reward = false 
@@ -107,6 +93,20 @@ home = ["HTML", "RSS", "Algolia"]
   #keybase       = "full profile url in keybase"
   #xing          = "https://www.xing.com/profile/yourxingid"
   #git           = "full profile url for git user"
+
+  [params.giscus]
+  data_repo="SylarMa/hugo-blog"
+  data_repo_id="R_kgDONMJe4Q"
+  data_category="Announcements"
+  data_category_id="DIC_kwDONMJe4c4CkFc3"
+  data_mapping="pathname"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="bottom"
+  data-theme="preferred_color_scheme"
+  data-lang="zh-CN"
+  crossorigin="anonymous"
   
   [[params.friend_link]]
   title = "Linda的博客"
