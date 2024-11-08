@@ -94,7 +94,7 @@ home = ["HTML", "RSS", "Algolia"]
   #xing          = "https://www.xing.com/profile/yourxingid"
   #git           = "full profile url for git user"
 
-  [params.giscus]
+#  [params.giscus]
   data_repo="SylarMa/hugo-blog"
   data_repo_id="R_kgDONMJe4Q"
   data_category="Announcements"
