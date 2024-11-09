@@ -34,7 +34,7 @@
       <link>https://malonghua.com/post/hugo-markdown/</link>
       <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
       <guid>https://malonghua.com/post/hugo-markdown/</guid>
-      <description>&lt;p&gt;本文主要内容是测试Hugo对Markdown的支持情况，方便后续写作时查阅。&lt;/p&gt;&#xA;&lt;p&gt;标题&lt;br&gt;&#xA;在行首以井号#加空格指定，几个井号就代表几级标题。&lt;/p&gt;&#xA;&lt;p&gt;1&lt;br&gt;&#xA;2&lt;br&gt;&#xA;3&lt;br&gt;&#xA;4&lt;/p&gt;&#xA;&lt;h1 id=&#34;1级标题&#34;&gt;1级标题&lt;/h1&gt;&#xA;&lt;h2 id=&#34;2级标题&#34;&gt;2级标题&lt;/h2&gt;&#xA;&lt;p&gt;&amp;hellip;&lt;/p&gt;</description>
+      <description>&lt;p&gt;本文主要内容是测试Hugo对Markdown的支持情况，方便后续写作时查阅。&lt;/p&gt;&#xA;&lt;p&gt;标题&lt;br&gt;&#xA;在行首以井号#加空格指定，几个井号就代表几级标题。&lt;/p&gt;&#xA;&lt;h1 id=&#34;1级标题&#34;&gt;1级标题&lt;/h1&gt;&#xA;&lt;h2 id=&#34;2级标题&#34;&gt;2级标题&lt;/h2&gt;&#xA;&lt;p&gt;&amp;hellip;&lt;/p&gt;&#xA;&lt;h6 id=&#34;6级标题&#34;&gt;6级标题&lt;/h6&gt;&#xA;&lt;p&gt;段落&lt;br&gt;&#xA;段落之间以至少一行空行为分隔，也可以通过在行尾加 2个空格 强制段落内换行。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hello World</title>
