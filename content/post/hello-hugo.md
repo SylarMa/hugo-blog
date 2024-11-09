@@ -1,5 +1,5 @@
 ---
-title:       "手把手教你零基础零费用教你使用Hugo+GitHub打造专属个人博客"
+title:       "手把手教你零基础零费用使用Hugo+GitHub打造专属个人博客"
 subtitle:    ""
 description: ""
 date:        2024-11-08

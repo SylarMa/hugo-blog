@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pig Logic Park Studio</title>
-    <link>http://localhost:1313/tags/pig-logic-park-studio/</link>
+    <link>https://malonghua.com/tags/pig-logic-park-studio/</link>
     <description>Recent content on Pig Logic Park Studio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 11 Feb 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/pig-logic-park-studio/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://malonghua.com/tags/pig-logic-park-studio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
-      <link>http://localhost:1313/post/my-first-post/</link>
+      <link>https://malonghua.com/post/my-first-post/</link>
       <pubDate>Fri, 11 Feb 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/my-first-post/</guid>
+      <guid>https://malonghua.com/post/my-first-post/</guid>
       <description>&lt;p&gt;Hello World!&lt;/p&gt;&#xA;&lt;p&gt;Hello Pig Logic Park Studio!&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tag2 on Pig Logic Park Studio</title>
-    <link>http://localhost:1313/tags/tag2/</link>
+    <link>https://malonghua.com/tags/tag2/</link>
     <description>Recent content in Tag2 on Pig Logic Park Studio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Jun 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://malonghua.com/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo对Markdown支持情况测试</title>
-      <link>http://localhost:1313/post/hugo-markdown/</link>
+      <link>https://malonghua.com/post/hugo-markdown/</link>
       <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/hugo-markdown/</guid>
+      <guid>https://malonghua.com/post/hugo-markdown/</guid>
       <description>&lt;p&gt;本文主要内容是测试Hugo对Markdown的支持情况，方便后续写作时查阅。&lt;/p&gt;&#xA;&lt;p&gt;标题&lt;br&gt;&#xA;在行首以井号#加空格指定，几个井号就代表几级标题。&lt;/p&gt;&#xA;&lt;p&gt;1&lt;br&gt;&#xA;2&lt;br&gt;&#xA;3&lt;br&gt;&#xA;4&lt;/p&gt;&#xA;&lt;h1 id=&#34;1级标题&#34;&gt;1级标题&lt;/h1&gt;&#xA;&lt;h2 id=&#34;2级标题&#34;&gt;2级标题&lt;/h2&gt;&#xA;&lt;p&gt;&amp;hellip;&lt;/p&gt;</description>
     </item>
   </channel>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>搜索 on Pig Logic Park Studio</title>
+    <link>https://malonghua.com/tags/%E6%90%9C%E7%B4%A2/</link>
+    <description>Recent content in 搜索 on Pig Logic Park Studio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://malonghua.com/tags/%E6%90%9C%E7%B4%A2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo博客使用Algolia添加搜索功能</title>
+      <link>https://malonghua.com/post/hugo-search-algolia/</link>
+      <pubDate>Sat, 09 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://malonghua.com/post/hugo-search-algolia/</guid>
+      <description>&lt;p&gt;可以使用 algolia 搜索，因为它无需占用服务器资源，而且提供的免费使用次数也足够多。&lt;br&gt;&#xA;下文将以 LoveIt 主题为例，添加 algolia 搜索功能。&lt;/p&gt;&#xA;&lt;h2 id=&#34;algolia-官网上的配置&#34;&gt;algolia 官网上的配置&lt;/h2&gt;&#xA;&lt;h3 id=&#34;注册-algolia-账号&#34;&gt;注册 algolia 账号&lt;/h3&gt;&#xA;&lt;p&gt;algolia 的官网：https://www.algolia.com&lt;br&gt;&#xA;注册比较简单，此处略。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

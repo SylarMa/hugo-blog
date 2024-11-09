@@ -2,38 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on Pig Logic Park Studio</title>
-    <link>http://localhost:1313/categories/hugo/</link>
+    <link>https://malonghua.com/categories/hugo/</link>
     <description>Recent content in Hugo on Pig Logic Park Studio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://malonghua.com/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>手把手教你零基础零费用教你使用Hugo&#43;GitHub打造专属个人博客</title>
-      <link>http://localhost:1313/post/hello-hugo/</link>
+      <title>Hugo博客使用Algolia添加搜索功能</title>
+      <link>https://malonghua.com/post/hugo-search-algolia/</link>
+      <pubDate>Sat, 09 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://malonghua.com/post/hugo-search-algolia/</guid>
+      <description>&lt;p&gt;可以使用 algolia 搜索，因为它无需占用服务器资源，而且提供的免费使用次数也足够多。&lt;br&gt;&#xA;下文将以 LoveIt 主题为例，添加 algolia 搜索功能。&lt;/p&gt;&#xA;&lt;h2 id=&#34;algolia-官网上的配置&#34;&gt;algolia 官网上的配置&lt;/h2&gt;&#xA;&lt;h3 id=&#34;注册-algolia-账号&#34;&gt;注册 algolia 账号&lt;/h3&gt;&#xA;&lt;p&gt;algolia 的官网：https://www.algolia.com&lt;br&gt;&#xA;注册比较简单，此处略。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>手把手教你零基础零费用使用Hugo&#43;GitHub打造专属个人博客</title>
+      <link>https://malonghua.com/post/hello-hugo/</link>
       <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/hello-hugo/</guid>
+      <guid>https://malonghua.com/post/hello-hugo/</guid>
       <description>&lt;p&gt;写这篇文章的原因是在网上看了很多的教程，踩了不少的坑，白费了很多功夫，也没找到一篇从头到尾完整有效的个人建站方法。&lt;/p&gt;&#xA;&lt;p&gt;有些教程年代久远，有些教程极为繁琐，有些教程压根跑不通。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hugo Error</title>
-      <link>http://localhost:1313/post/hugo-error/</link>
+      <link>https://malonghua.com/post/hugo-error/</link>
       <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/hugo-error/</guid>
+      <guid>https://malonghua.com/post/hugo-error/</guid>
       <description>&lt;h1 id=&#34;hugo-error&#34;&gt;Hugo Error&lt;/h1&gt;&#xA;&lt;p&gt;1、git push SSL certificate problem: unable to get local issuer certificate&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ git push --set-upstream origin master&#xD;&#xA;fatal: unable to access &amp;#39;https://github.com/name/name.github.io.git/&amp;#39;: SSL certificate problem: unable to get local issuer certificate&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这个问题是由于没有配置信任的服务器HTTPS验证。默认，cURL被设为不信任任何CAs，就是说，它不信任任何服务器验证。&lt;br&gt;&#xA;只需要执行下面命令就可以解决：&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hugo对Markdown支持情况测试</title>
-      <link>http://localhost:1313/post/hugo-markdown/</link>
+      <link>https://malonghua.com/post/hugo-markdown/</link>
       <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/hugo-markdown/</guid>
+      <guid>https://malonghua.com/post/hugo-markdown/</guid>
       <description>&lt;p&gt;本文主要内容是测试Hugo对Markdown的支持情况，方便后续写作时查阅。&lt;/p&gt;&#xA;&lt;p&gt;标题&lt;br&gt;&#xA;在行首以井号#加空格指定，几个井号就代表几级标题。&lt;/p&gt;&#xA;&lt;p&gt;1&lt;br&gt;&#xA;2&lt;br&gt;&#xA;3&lt;br&gt;&#xA;4&lt;/p&gt;&#xA;&lt;h1 id=&#34;1级标题&#34;&gt;1级标题&lt;/h1&gt;&#xA;&lt;h2 id=&#34;2级标题&#34;&gt;2级标题&lt;/h2&gt;&#xA;&lt;p&gt;&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hello World</title>
-      <link>http://localhost:1313/post/my-first-post/</link>
+      <link>https://malonghua.com/post/my-first-post/</link>
       <pubDate>Fri, 11 Feb 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/my-first-post/</guid>
+      <guid>https://malonghua.com/post/my-first-post/</guid>
       <description>&lt;p&gt;Hello World!&lt;/p&gt;&#xA;&lt;p&gt;Hello Pig Logic Park Studio!&lt;/p&gt;</description>
     </item>
   </channel>

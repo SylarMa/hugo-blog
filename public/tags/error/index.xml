@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Error on Pig Logic Park Studio</title>
-    <link>http://localhost:1313/tags/error/</link>
+    <link>https://malonghua.com/tags/error/</link>
     <description>Recent content in Error on Pig Logic Park Studio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 07 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/error/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://malonghua.com/tags/error/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo Error</title>
-      <link>http://localhost:1313/post/hugo-error/</link>
+      <link>https://malonghua.com/post/hugo-error/</link>
       <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/hugo-error/</guid>
+      <guid>https://malonghua.com/post/hugo-error/</guid>
       <description>&lt;h1 id=&#34;hugo-error&#34;&gt;Hugo Error&lt;/h1&gt;&#xA;&lt;p&gt;1、git push SSL certificate problem: unable to get local issuer certificate&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ git push --set-upstream origin master&#xD;&#xA;fatal: unable to access &amp;#39;https://github.com/name/name.github.io.git/&amp;#39;: SSL certificate problem: unable to get local issuer certificate&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这个问题是由于没有配置信任的服务器HTTPS验证。默认，cURL被设为不信任任何CAs，就是说，它不信任任何服务器验证。&lt;br&gt;&#xA;只需要执行下面命令就可以解决：&lt;/p&gt;</description>
     </item>
   </channel>

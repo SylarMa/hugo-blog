@@ -2,52 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Pig Logic Park Studio</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://malonghua.com/tags/</link>
     <description>Recent content in Tags on Pig Logic Park Studio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://malonghua.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algolia</title>
+      <link>https://malonghua.com/tags/algolia/</link>
+      <pubDate>Sat, 09 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://malonghua.com/tags/algolia/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Hugo</title>
-      <link>http://localhost:1313/tags/hugo/</link>
-      <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/hugo/</guid>
+      <link>https://malonghua.com/tags/hugo/</link>
+      <pubDate>Sat, 09 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://malonghua.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>搜索</title>
+      <link>https://malonghua.com/tags/%E6%90%9C%E7%B4%A2/</link>
+      <pubDate>Sat, 09 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://malonghua.com/tags/%E6%90%9C%E7%B4%A2/</guid>
       <description></description>
     </item>
     <item>
       <title>快速入门</title>
-      <link>http://localhost:1313/tags/%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</link>
+      <link>https://malonghua.com/tags/%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</link>
       <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</guid>
+      <guid>https://malonghua.com/tags/%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</guid>
       <description></description>
     </item>
     <item>
       <title>Error</title>
-      <link>http://localhost:1313/tags/error/</link>
+      <link>https://malonghua.com/tags/error/</link>
       <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/error/</guid>
+      <guid>https://malonghua.com/tags/error/</guid>
       <description></description>
     </item>
     <item>
       <title>Tag2</title>
-      <link>http://localhost:1313/tags/tag2/</link>
+      <link>https://malonghua.com/tags/tag2/</link>
       <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tag2/</guid>
+      <guid>https://malonghua.com/tags/tag2/</guid>
       <description></description>
     </item>
     <item>
       <title>Hello World</title>
-      <link>http://localhost:1313/tags/hello-world/</link>
+      <link>https://malonghua.com/tags/hello-world/</link>
       <pubDate>Fri, 11 Feb 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/hello-world/</guid>
+      <guid>https://malonghua.com/tags/hello-world/</guid>
       <description></description>
     </item>
     <item>
       <title>Pig Logic Park Studio</title>
-      <link>http://localhost:1313/tags/pig-logic-park-studio/</link>
+      <link>https://malonghua.com/tags/pig-logic-park-studio/</link>
       <pubDate>Fri, 11 Feb 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/pig-logic-park-studio/</guid>
+      <guid>https://malonghua.com/tags/pig-logic-park-studio/</guid>
       <description></description>
     </item>
   </channel>
