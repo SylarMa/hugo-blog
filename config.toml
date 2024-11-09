@@ -31,9 +31,9 @@ home = ["HTML", "RSS", "Algolia"]
 
   # algolia site search
   algolia_search = true
-  algolia_appId = ""
-  algolia_indexName = ""
-  algolia_apiKey = ""
+  algolia_appId = "0TIZ1HKHGQ"
+  algolia_indexName = "hugoblog"
+  algolia_apiKey = "1672352765df05d8e4d6d7a844a49922"
 
   # Sidebar settings
   sidebar_about_description = "Pig Logic Park Studio"

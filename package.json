@@ -1,0 +1,22 @@
+{
+  "name": "hugoblog",
+  "version": "1.0.0",
+  "description": "My hugo blog",
+  "main": "index.js",
+  "scripts": {
+    "algolia": "atomic-algolia"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SylarMa/hugo-blog.git"
+  },
+  "author": "Pig Logic Park Studio",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/SylarMa/hugo-blog/issues"
+  },
+  "homepage": "https://github.com/SylarMa/hugo-blog#readme",
+  "dependencies": {
+    "atomic-algolia": "^0.3.19"
+  }
+}
