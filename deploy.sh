@@ -7,6 +7,10 @@ hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
 #cd public
+
+#更新algolia搜索
+npm run algolia
+
 # Add changes to git.
 git add .
 
